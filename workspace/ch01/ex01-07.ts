@@ -1,5 +1,6 @@
 // 객체 타입 선언
 (() => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   type User = {
     name: string;
     age: number;

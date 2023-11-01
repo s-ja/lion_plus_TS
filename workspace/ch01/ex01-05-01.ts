@@ -1,7 +1,8 @@
 // 유니언 타입
 (() => {
   function print(msg: string | number | boolean): void {
-    if (typeof msg === "string") { // 타입 가드
+    if (typeof msg === "string") {
+      // 타입 가드
       console.log(`${msg} 글자수 : ${msg.length}`);
     } else if (typeof msg === "number") {
       console.log(`${msg} + 10 = ${msg + 10}`);

@@ -5,7 +5,7 @@
 (() => {
   type Message = string | number;
 
-  function log(msg: Message) {
+  function log(msg: Message): void {
     console.log(msg);
   }
   log("world");

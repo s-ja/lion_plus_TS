@@ -1,12 +1,12 @@
 (() => {
   //   string
-  var str: string = "hello";
+  var str = "hello";
 
   //   number
-  var age: number = 30;
+  var age = 30;
 
   //   boolean
-  var done: boolean = true;
+  var done = true;
 
   //   object
   var todo: object = { title: "TypeScript", done: false };
@@ -19,11 +19,12 @@
   var users: [string, number] = ["김철수", 30];
 
   //   any
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   var userName: any = "안승지";
   userName = 29;
 
   //   null
-  var nullVal: null = null;
+  var nullVal = null;
 
   //   undefined
   var undefinedVal: undefined;
