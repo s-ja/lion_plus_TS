@@ -1,6 +1,6 @@
 (() => {
   function hello(name: string): string {
-    return "hello " + name;
+    return "hello how are you " + name;
   }
   console.log(hello("typescript!"));
 })();
