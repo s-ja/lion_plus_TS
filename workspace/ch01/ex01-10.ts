@@ -7,6 +7,7 @@
   }
 
   // 변수에 타입 지정
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   var kim: User = { name: "kim", age: 20 };
 
   // 함수의 매개 변수에 타입 지정
