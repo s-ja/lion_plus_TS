@@ -55,6 +55,15 @@
     const second: Todo = { id: 5, title: "4", done: false };
     addTodo(first);
     addTodo(second);
+
+    const firstTodo = logFirstTodo();
+    console.log(firstTodo);
+    deleteTodo(4);
+
+    completeTodo(3, todoItems[3]);
+
+    const result = showCompleted();
+    console.log(result);
   }
 
   // 1. Todo 목록을 가져온다.
